@@ -40,6 +40,7 @@ export default function Gallery() {
         // console.log(gdata);
         if (gdata!==null){
             let gtm = gdata.map((g,idx)=><TailCard k={`gal${idx}`}
+                                        theme ={'black'}
                                         imgSrc={g.galWebImageUrl.replace("http://","https://")}
                                         title= {g["galTitle"]}
                                         subtitle={g["galPhotographyLocation"]}

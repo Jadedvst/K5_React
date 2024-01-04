@@ -40,5 +40,7 @@ export default function TailCard({k,theme,imgSrc,title,subtitle,by,tags}) {
     </div>
   )
 }
+//Gallery.js
+//Festival.js
 
     
